@@ -359,7 +359,7 @@ baseurl:                                ""
 # such as sitemap.txt. For most places will/should use base_path to
 # make the URLs.
 #
-base_path:                              ""
+base_path:                              "holy_dives"
 
 # ------------------------------------------------------------------------------
 # Base hostname and protocol for the site

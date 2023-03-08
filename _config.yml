@@ -353,7 +353,7 @@ url:                                    https://pastew.github.io/holy-dives
 # site.url (see above) when you want a link to something with the
 # full URL to it.
 #
-baseurl:                                ""
+baseurl:                                "https://pastew.github.io/holy-dives"
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt. For most places will/should use base_path to
