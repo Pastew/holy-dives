@@ -347,7 +347,7 @@ permalink:                              pretty
 # site.url will be set to the value of host, port.
 # NOTE: Required setting for the sitemap plugin, for example.
 #
-url:                                    http://localhost:30000
+url:                                    https://pastew.github.io/holy-dives
 
 # The subpath of your site, e.g. /blog/. Used in conjunction with
 # site.url (see above) when you want a link to something with the
@@ -365,8 +365,8 @@ base_path:                              ""
 # Base hostname and protocol for the site
 #
 #  Defaults:
-#   protocol:                           http
-#   host:                               localhost
+#   protocol:                           https
+#   host:                               pastew.github.io
 #   port:                               4000
 #   timezone:                           Europe/Berlin
 #   encoding:                           UTF-8

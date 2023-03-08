@@ -371,8 +371,8 @@ base_path:                              ""
 #   timezone:                           Europe/Berlin
 #   encoding:                           UTF-8
 #
-protocol:                               http
-host:                                   localhost
+protocol:                               https
+host:                                   pastew.github.io
 port:                                   30000
 timezone:                               Europe/Berlin
 encoding:                               UTF-8
