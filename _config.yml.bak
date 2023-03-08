@@ -389,7 +389,7 @@ encoding:                               UTF-8
 #   destination:                        _site
 #
 source:                                 .
-destination:                            _site
+destination:                            docs
 plugins_dir:                            _plugins
 layouts_dir:                            _layouts
 data_dir:                               _data
