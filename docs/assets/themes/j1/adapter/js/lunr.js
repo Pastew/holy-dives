@@ -13,7 +13,7 @@
  # J1 Theme is licensed under the MIT License.
  # For details, see: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE.md
  # -----------------------------------------------------------------------------
- #  Adapter generated: 2023-03-08 14:55:23 +0100
+ #  Adapter generated: 2023-03-08 15:08:54 +0100
  # -----------------------------------------------------------------------------
 */
 // -----------------------------------------------------------------------------
@@ -47,7 +47,7 @@ j1.adapter.lunr = (function (j1, window) {
       // -----------------------------------------------------------------------
       var settings = $.extend({
         module_name: 'j1.adapter.lunr',
-        generated:   '2023-03-08 14:55:23 +0100'
+        generated:   '2023-03-08 15:08:54 +0100'
       }, options);
       // -----------------------------------------------------------------------
       // Global variable settings
