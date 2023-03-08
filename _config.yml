@@ -235,24 +235,24 @@ description: >
                                         for the Web. Jekyll One is open source and the modules packed
                                         as well. No pain for private or professional purposes.
 keywords: >
-                                        opensource, free, load, download, start, starter, example,
-                                        high, easy, use, secure, encrypt, standard, popular,
-                                        generate, create, learn, distribute, publish, deploy,
-                                        beginner, advanced, expert, student, learner, writer, reader, visitor
-                                        framework, toolkit, integration, extension, module, api,
-                                        dynamic, static, generator, client, server, internet, local, localhost
-                                        page, web, website, webdesign, material, design, responsive,
-                                        javascript, nodejs, ruby, windows, linux, osx, mac, os,
-                                        http, https, html, html5, css, scss, style,
-                                        browser, firefox, chrome, edge, opera, safari,
-                                        configuration, generator, navigation, menu, dropdown, fab, action, button
-                                        application, interface, provider, api, repository,
-                                        cookie, language, translation, gdpr, dsgvo, privacy,
-                                        asciidoc, aciidoctor, bootstrap, jekyll, liquid,
-                                        hyvor, disqus, git, github, netlify, heroku, apple, microsoft,
-                                        provider, service, internet, support,
-                                        google, analytics, advertising, search, console, silverlight, score,
-                                        j1, template, jekyllone, comment
+  opensource, free, load, download, start, starter, example,
+  high, easy, use, secure, encrypt, standard, popular,
+  generate, create, learn, distribute, publish, deploy,
+  beginner, advanced, expert, student, learner, writer, reader, visitor
+  framework, toolkit, integration, extension, module, api,
+  dynamic, static, generator, client, server, internet, local, localhost
+  page, web, website, webdesign, material, design, responsive,
+  javascript, nodejs, ruby, windows, linux, osx, mac, os,
+  http, https, html, html5, css, scss, style,
+  browser, firefox, chrome, edge, opera, safari,
+  configuration, generator, navigation, menu, dropdown, fab, action, button
+  application, interface, provider, api, repository,
+  cookie, language, translation, gdpr, dsgvo, privacy,
+  asciidoc, aciidoctor, bootstrap, jekyll, liquid,
+  hyvor, disqus, git, github, netlify, heroku, apple, microsoft,
+  provider, service, internet, support,
+  google, analytics, advertising, search, console, silverlight, score,
+  j1, template, jekyllone, comment
 
 author:
   name:                                 Juergen Adams
@@ -353,7 +353,7 @@ url:                                    https://pastew.com
 # site.url (see above) when you want a link to something with the
 # full URL to it.
 #
-baseurl:                                "/holy_dives"
+baseurl:                                "/holy-dives"
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt. For most places will/should use base_path to
@@ -371,8 +371,8 @@ base_path:                              ""
 #   timezone:                           Europe/Berlin
 #   encoding:                           UTF-8
 #
-protocol:                               https
-host:                                   pastew.github.io
+protocol:                               http
+host:                                   localhost
 port:                                   30000
 timezone:                               Europe/Berlin
 encoding:                               UTF-8
