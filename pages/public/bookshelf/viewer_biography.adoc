@@ -1,0 +1,58 @@
+---
+title:                                  Biography
+tagline:                                Today's People
+date:                                   2023-01-29 00:00:00
+description: >
+                                        Today's people is a collection contains the biography's
+                                        of celebrities well known by most of us. Find the books issued
+                                        by musicans, actors and more.
+
+categories:                             [ Jekyll, Collection ]
+tags:                                   [ Preview, Bookshelf ]
+
+fab_menu_id:                            open_toc
+regenerate:                             false
+permalink:                              /pages/public/bookshelf/biography/
+
+resources:                              []
+resource_options:
+  - attic:
+      padding_top:                      600
+      slides:
+        - url:                          /assets/images/modules/attics/giammarco-boscaro-1920x1280.jpg
+          alt:                          giammarco-boscaro-1920x1280
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set page (local) attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+
+{% comment %} Liquid procedures
+-------------------------------------------------------------------------------- {% endcomment %}
+{% capture create_collection_article_preview %}themes/{{site.template.name}}/procedures/collections/create_collection_article_preview.proc{% endcapture %}
+
+{% comment %} Debugging
+-------------------------------------------------------------------------------- {% endcomment %}
+{% comment %} site.biography:  {{ site.biography | debug }} {% endcomment %}
+
+
+// Content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[[navigator]]
+lorem:sentences[8]
+
+[role="mb-6"]
+lorem:sentences[3]
+
+++++
+<div class="row mb-4">
+  <div class="col-md-12 col-xs-12">
+    {% include {{create_collection_article_preview}} collection=site.biography %}
+  </div>
+</div>
+++++

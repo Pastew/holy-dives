@@ -1,0 +1,120 @@
+---
+title:                                  Where to go
+tagline:                                Fasten Your Way
+date:                                   2022-11-03 00:00:00 +100
+description: >
+                                        Welcome to the info pages of J1 Theme. A good decision
+                                        to get on that page first. Certainly, there is no better
+                                        place to learn what J1 Theme can do and what pages are
+                                        available to experience more.
+keywords: >
+                                        Jekyll, Theme, JekyllOne, Info, Introduction, Rocketstart,
+                                        Roundtrip,
+
+categories:                             [ Info ]
+tags:                                   [ Introduction ]
+
+image:
+  path:                                 /assets/images/modules/attics/1920x1280/alexander-redl.jpg
+  width:                                1920
+  height:                               1280
+  alt:                                  Photo by Alexander Redl on Unsplash
+
+fab_menu_id:                            default
+regenerate:                             false
+permalink:                              /pages/public/learn/where_to_go/
+
+resources:                              [ animate, comments ]
+resource_options:
+  - attic:
+      padding_top:                      600
+      slides:
+        - url:                          /assets/images/modules/attics/1920x1280/alexander-redl.jpg
+          alt:                          Photo by Alexander Redl on Unsplash
+          badge:
+            type:                       unsplash
+            author:                     Alexander Redl
+            href:                       https://unsplash.com/@alexanderredl
+---
+
+// Page Initializer
+// =============================================================================
+// Enable the Liquid Preprocessor
+:page-liquid:
+
+// Set (local) page attributes here
+// -----------------------------------------------------------------------------
+// :page--attr:                         <attr-value>
+:url-j1-jupyter-notebooks--where-to-go: /pages/public/jupyter/where-to-go/
+
+//  Load Liquid procedures
+// -----------------------------------------------------------------------------
+{% capture load_attributes %}themes/{{site.template.name}}/procedures/global/attributes_loader.proc{%endcapture%}
+
+// Load page attributes
+// -----------------------------------------------------------------------------
+{% include {{load_attributes}} scope="global" %}
+
+// Page content
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[role="dropcap"]
+Welcome to the info pages of J1 Theme. A good decision to get on that page
+first. Certainly, there is no better place to learn what J1 Theme can do
+and what pages are available to experience more.
+
+// Include sub-documents (if any) (if any)
+// -----------------------------------------------------------------------------
+The crucial first step in finding your way to Jekyll is done. Congratulations.
+The *Learn* section contains all you need to learn what Jekyll and J1 can do
+for your website, for your new static web - if you like.
+
+Roundtrip::
+In this section, you’ll find a tour to show some of the main features of
+the J1 theme. This trip covers how image data can be managed using
+J1, some background of the Theme's typography, discuss extensions, and
+what J1 can do in general. The roundtrip is a visual tour, no technical
+stuff, nothing academic. See what you will get as an overview of some of
+the top features of J1.
+
+If you're interested what J1 Theme can do, continue by walking through the
+roundtrip examples by starting an inspiring tour
+link:{url-j1-roundtrip--present-images}[from here].
+
+Rocketstart::
+J1 Theme is fully JAM-Stack ready. If you're interested in creating and
+deploying an amazing J1 based site on the Internet in minutes without
+installing any software locally on your PC, go for Netlify's One-Click-Deploy.
+Rocketstart took about fifteen minutes and guides you through this easy
+3-step-process. Fire your rocket now at
+link:{url-j1--rocketstart}[Rocketstart, {browser-window--new}].
+
+Site Development::
+The tutorial link:{url-j1--devstart}[Site Development, {browser-window--new}]
+accompanies you to learn how to set up a development environment for Jekyll
+and J1 Theme to manage and create your first website locally on your PC in
+minutes. J1 Theme comes with a built-in Web, a skeleton for a new website created
+using Jekyll. This website is called the `Starter Web`, a general-purpose
+scaffold for modifying a new site for your needs.
+
+J1 in a Day::
+The workshop `J1 in a Day` is a tutorial learning to create modern websites
+using _Jekyll_ and the J1 Theme. This Tutorial focuses on the basics of
+_Jekyll_ and J1, which all people need to know for a successful way to a
+modern static website. Jekyll (and JekyllOne) is quite different from classic
+Content Management Systems (CMS).
+
+If you would like to learn more about the use of Jekyll and J1 Theme, the
+tutorials present what you need to know:
+
+* The basics of modern static webs
+* Creating an awesome Site
+* Development System
+* Project Management
+* Create Content
+
+It sounds much, spending a whole day to get Jekyll and J1 to know. Yes, it is
+much. But it makes sense to get a full overview of what can be achieved by
+modern static websites.
+
+To experience what's possible today using modern websites static webs, go for
+link:{url-j1-web-in-a-day--meet-and-greet}[J1 in a Day, {browser-window--new}].
